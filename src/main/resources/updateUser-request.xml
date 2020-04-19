@@ -1,0 +1,12 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:updateUserRequest xmlns:ns2="http://ngatdo.com/soapws">
+            <ns2:user>
+                <ns2:name>Ngat</ns2:name>
+                <ns2:empId>40</ns2:empId>
+                <ns2:salary>32</ns2:salary>
+            </ns2:user>
+        </ns2:updateUserRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

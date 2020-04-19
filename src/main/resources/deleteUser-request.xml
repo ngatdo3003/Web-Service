@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://ngatdo.com/soapws">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:deleteUserRequest>
+            <us:name>Sam</us:name>
+        </us:deleteUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
